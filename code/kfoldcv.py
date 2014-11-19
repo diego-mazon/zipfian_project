@@ -11,7 +11,7 @@ def kfoldcv(data, k=5, m=10, penalizer=0.5, timeinterval=np.linspace(1,20,20), d
     Trains data with AalenAdditiveFitter and (k-fold) cross validate it.
     Based on lifelines library for survival analysis in Python.
     
-    data: a Pandas dataframe.
+    data: Pandas dataframe.
     k: number of folds
     m: number of time units to be included in the cross validation
     penalizer: argument of class AalenAdditiveFitter (lifelines library)
